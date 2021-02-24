@@ -1,0 +1,15 @@
+Sterowanie windą
+//praktyka programowania wielowątkowego
+
+Napisz program symulujący działanie windy w budynku. Parametrami programu są: 
+(1) liczba pięter (F) w budynku, 
+(2) jednostka czasu (t), tj. czas w sekundach potrzebny na przemieszczenie się windy o jedno piętro
+(3) prawdopodobieństwo (p) pojawienia się pasażera w jednostce
+czasu (t) na losowym piętrze z zamiarem podróży na inne, losowe piętro. 
+
+dodatkowe parametry:
+pojemność windy (ilu maksymalnie pasażerów może jechać windą w jedynym momencie)
+liczba pięter w budynku
+
+Program powinien wypisywać w zwięzłej formie stan całego systemu co jednostkę czasu, np. miejsce przebywania windy (nr piętra w stanie postoju lub numery pięter, pomiędzy którymi winda się
+przemieszcza), jej stan (postój, ruch w górę, ruch w dół, liczba pasażerów) i listy pasażerów oczekujących na każdym piętrze z reprezentacją zamiarów jazdy.
